@@ -49,9 +49,16 @@ const Project = [
   {
     lable: "Herookie",
     title: "Herookie (Social Networking Website)",
-    DataBase: "MySQL",
-    front: "HTML, CSS , Javascript",
-    back: "PHP",
+    DataBase: " MySQL",
+    front: " HTML, CSS , Javascript",
+    back: " PHP",
+  },
+  {
+    lable: "Emp Management",
+    title: "Employee Management",
+    DataBase: " MySQL",
+    front: " React",
+    back: " spring boot",
   },
 ];
 
@@ -63,9 +70,9 @@ export default function ExampleCollapsibleList() {
       sx={{
         display: "flex",
         margin: "50px",
-        justifyContent: "space-between",
+        justifyContent: "center",
         alignItems: "top",
-        width: 320,
+        width: "100%",
         color: "rgb(0,255,164)",
         pl: "24px",
       }}
@@ -151,7 +158,7 @@ export default function ExampleCollapsibleList() {
             </ListItem>
             {open && (
               <List sx={{ "--ListItem-paddingY": "8px" }}>
-                <Card sx={{ minWidth: 275 }}>
+                <Card sx={{ maxWidth: 275 }}>
                   <CardContent>
                     <Typography
                       sx={{ fontSize: 12 }}
@@ -262,7 +269,7 @@ export default function ExampleCollapsibleList() {
             </ListItem>
             {open2 && (
               <List sx={{ "--ListItem-paddingY": "8px" }}>
-                <Card sx={{ minWidth: 275 }}>
+                <Card sx={{ maxWidth: 275 }}>
                   <CardContent>
                     <Typography
                       sx={{ fontSize: 12 }}
